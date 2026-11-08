@@ -1,0 +1,17 @@
+{
+  "name": "Sarah & Sam — Puerto Rico",
+  "short_name": "Sarah & Sam",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#0c4f45",
+  "icons": [
+    {
+      "src": "assets/roundel.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

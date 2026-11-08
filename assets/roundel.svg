@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Sarah and Sam celebration line</title>
+  <desc id="desc">A transit-style roundel with a beach house, palm, and wave</desc>
+  <circle cx="128" cy="128" r="124" fill="#f0e3c9" stroke="#0c4f45" stroke-width="8"/>
+  <circle cx="128" cy="128" r="102" fill="#0c4f45"/>
+  <path d="M64 125 128 74l64 51" fill="none" stroke="#f0e3c9" stroke-linecap="round" stroke-linejoin="round" stroke-width="11"/>
+  <path d="M89 126v-15M167 126v-15" fill="none" stroke="#f0e3c9" stroke-linecap="round" stroke-width="8"/>
+  <path d="M126 126c0-25 4-40 13-55" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="7"/>
+  <path d="M138 72c-15-10-25-7-30 3 14 1 22 6 28 12M141 70c10-13 22-13 30-6-10 5-18 11-27 22M137 77c18 1 26 9 28 19-12-6-20-7-29-5" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="6"/>
+  <path d="M52 148c20-12 38-12 58 0s39 12 59 0 37-12 55 0M50 166c21-12 40-12 61 0s40 12 61 0 38-12 56 0" fill="none" stroke="#64a26f" stroke-linecap="round" stroke-width="8"/>
+  <rect x="69" y="188" width="118" height="34" rx="17" fill="#d9a19b"/>
+  <text x="128" y="212" text-anchor="middle" fill="#0c4f45" font-family="Arial,sans-serif" font-size="23" font-weight="800" letter-spacing="3">S&amp;S</text>
+</svg>

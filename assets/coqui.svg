@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Coquí frog</title>
+  <desc id="desc">A stylized coquí frog in the wedding site's pink and green palette</desc>
+  <g fill="none" stroke="#0c4f45" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75 96C59 99 50 109 41 120L24 111" stroke-width="9"/>
+    <path d="M125 96c16 3 25 13 34 24l17-9" stroke-width="9"/>
+    <path d="M76 138c-15 8-23 19-30 30l-23-2" stroke-width="10"/>
+    <path d="M124 138c15 8 23 19 30 30l23-2" stroke-width="10"/>
+    <ellipse cx="100" cy="116" rx="34" ry="45" fill="#f0e3c9" stroke-width="8"/>
+    <ellipse cx="100" cy="75" rx="47" ry="32" fill="#f0e3c9" stroke-width="8"/>
+    <circle cx="68" cy="52" r="17" fill="#d9a19b" stroke-width="7"/>
+    <circle cx="132" cy="52" r="17" fill="#d9a19b" stroke-width="7"/>
+    <circle cx="68" cy="52" r="5" fill="#0c4f45" stroke="none"/>
+    <circle cx="132" cy="52" r="5" fill="#0c4f45" stroke="none"/>
+    <path d="M83 82c10 7 24 7 34 0" stroke="#d9a19b" stroke-width="7"/>
+    <path d="M84 107c9 8 23 8 32 0M82 128c11 8 25 8 36 0" stroke="#64a26f" stroke-width="6"/>
+    <circle cx="23" cy="111" r="7" fill="#d9a19b" stroke-width="5"/>
+    <circle cx="177" cy="111" r="7" fill="#d9a19b" stroke-width="5"/>
+    <circle cx="22" cy="166" r="7" fill="#d9a19b" stroke-width="5"/>
+    <circle cx="178" cy="166" r="7" fill="#d9a19b" stroke-width="5"/>
+  </g>
+</svg>
