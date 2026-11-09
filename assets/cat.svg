@@ -1,12 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
   <title id="title">Neighborhood cat</title>
-  <desc id="desc">A stylized sitting cat in the wedding site's pink and green palette</desc>
+  <desc id="desc">A cute, smiling sitting cat in the wedding site's pink and green palette</desc>
   <g fill="none" stroke="#0c4f45" stroke-linecap="round" stroke-linejoin="round">
     <path d="M64 70 58 32l31 22M136 70l6-38-31 22" fill="#d9a19b" stroke-width="8"/>
     <path d="M72 51 66 42l14 8M128 51l6-9-14 8" stroke="#f0e3c9" stroke-width="5"/>
     <ellipse cx="100" cy="82" rx="44" ry="38" fill="#f0e3c9" stroke-width="8"/>
-    <path d="M76 79h8M116 79h8" stroke-width="8"/>
-    <path d="m95 92 5 4 5-4M100 96v8M100 104c-7 0-11 3-14 7M100 104c7 0 11 3 14 7" stroke="#d9a19b" stroke-width="5"/>
+    <circle cx="81" cy="79" r="6" fill="#0c4f45" stroke="none"/>
+    <circle cx="119" cy="79" r="6" fill="#0c4f45" stroke="none"/>
+    <circle cx="79" cy="77" r="1.8" fill="#f0e3c9" stroke="none"/>
+    <circle cx="117" cy="77" r="1.8" fill="#f0e3c9" stroke="none"/>
+    <circle cx="75" cy="96" r="7" fill="#d9a19b" opacity=".55" stroke="none"/>
+    <circle cx="125" cy="96" r="7" fill="#d9a19b" opacity=".55" stroke="none"/>
+    <path d="M94 92q6-5 12 0-1 7-6 9-5-2-6-9Z" fill="#d9a19b" stroke="none"/>
+    <path d="M100 100v5M100 105q-7 13-16 3M100 105q7 13 16 3" stroke-width="5"/>
     <path d="M65 102c-13-4-25-2-35 3M66 113c-14 0-25 5-34 12M135 102c13-4 25-2 35 3M134 113c14 0 25 5 34 12" stroke-width="5"/>
     <path d="M77 116c-14 14-19 38-13 57h72c6-19 1-43-13-57" fill="#64a26f" stroke-width="8"/>
     <path d="M80 171c-7 0-14 5-17 12h36v-12M120 171c7 0 14 5 17 12h-36v-12" fill="#f0e3c9" stroke-width="7"/>
