@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Add Sarah and Sam's Puerto Rico weekend to your phone for one-tap access.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0c4f45">
+  <link rel="icon" href="assets/roundel.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Sarah &amp; Sam">
+  <script>
+    (function () {
+      var standalone = window.navigator.standalone === true ||
+        (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      if (standalone) window.location.replace('./');
+    }());
+  </script>
+  <link rel="stylesheet" href="install.css">
+  <title>Add Sarah &amp; Sam to your phone</title>
+</head>
+<body>
+  <header class="install-nav">
+    <a class="install-brand" href="./"><img src="assets/roundel.svg" alt="" width="46" height="46"><span>Sarah <i>&amp;</i> Sam</span></a>
+    <a class="back-link" href="./">Back to the weekend</a>
+  </header>
+
+  <main>
+    <section class="install-hero" aria-labelledby="install-title">
+      <div class="install-hero-pattern" aria-hidden="true"></div>
+      <div class="install-hero-copy">
+        <p class="route-kicker"><span>Cambridge</span><b aria-hidden="true"></b><span>San Juan</span></p>
+        <p class="eyebrow">One-tap access</p>
+        <h1 id="install-title">Keep the weekend<br>on your home screen.</h1>
+        <p>Save the site like an app for quick access to the schedule, maps, and any last-minute updates. Nothing to download.</p>
+      </div>
+    </section>
+
+    <section class="install-wrap" aria-label="Add to your home screen">
+      <article class="install-card">
+        <div class="app-icon"><img src="assets/app-icon-roundel.svg" alt="Sarah and Sam beach house roundel app icon" width="104" height="104"></div>
+        <p class="eyebrow center">Add to your phone</p>
+        <h2>Three quick steps</h2>
+        <p class="install-sub">Choose your phone to see the right instructions.</p>
+
+        <div class="phone-tabs" role="group" aria-label="Choose your phone">
+          <button id="tab-ios" aria-pressed="true" type="button">iPhone</button>
+          <button id="tab-android" aria-pressed="false" type="button">Android</button>
+        </div>
+
+        <ol class="steps" id="steps-ios">
+          <li>Open this page in <strong>Safari</strong>, then tap the <strong>Share</strong> button <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4"/><path d="M8 8l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>.</li>
+          <li>Scroll down and tap <strong>Add to Home Screen</strong>.</li>
+          <li>Tap <strong>Add</strong>. The Sarah &amp; Sam icon will appear on your home screen.</li>
+        </ol>
+
+        <ol class="steps" id="steps-android" hidden>
+          <li>Open this page in <strong>Chrome</strong>, then tap the <strong>three-dot menu</strong> in the top-right.</li>
+          <li>Tap <strong>Add to Home screen</strong> or <strong>Install app</strong>.</li>
+          <li>Confirm by tapping <strong>Add</strong> or <strong>Install</strong>.</li>
+        </ol>
+
+        <p class="desktop-note" id="desktopNote" hidden>You are viewing this on a computer. Open <strong>samandsarah.us/install.html</strong> on your phone to add the shortcut.</p>
+        <p class="install-why">The shortcut opens the live site, so the latest details are always one tap away.</p>
+      </article>
+
+      <a class="weekend-button" href="./">Open the weekend site <span aria-hidden="true">→</span></a>
+      <p class="already">Already added it? Tap the Sarah &amp; Sam icon on your home screen.</p>
+    </section>
+  </main>
+
+  <footer>December 4-6, 2026 · Ocean Park, San Juan</footer>
+  <script src="install.js"></script>
+</body>
+</html>

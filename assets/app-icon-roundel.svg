@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Beach House Roundel</title>
+  <desc id="desc">Sarah and Sam's beach house, palm, and wave logo on a square app icon</desc>
+  <rect width="512" height="512" rx="112" fill="#0c4f45"/>
+  <circle cx="256" cy="242" r="200" fill="#f0e3c9" stroke="#d0a053" stroke-width="8"/>
+  <circle cx="256" cy="242" r="165" fill="#0c4f45"/>
+  <path d="M154 232 256 150l102 82" fill="none" stroke="#f0e3c9" stroke-linecap="round" stroke-linejoin="round" stroke-width="18"/>
+  <path d="M194 234v-25M318 234v-25" fill="none" stroke="#f0e3c9" stroke-linecap="round" stroke-width="13"/>
+  <path d="M253 232c0-38 7-64 22-86" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="12"/>
+  <path d="M274 146c-27-18-47-10-54 8 24 0 39 10 50 25M278 143c18-22 41-22 55-9-20 8-32 20-48 40M273 155c30 1 44 14 47 31-20-10-35-13-52-8" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="10"/>
+  <path d="M134 274c34-20 64-20 98 0s66 20 100 0 64-20 96 0M130 303c36-20 68-20 104 0s68 20 104 0 64-20 94 0" fill="none" stroke="#64a26f" stroke-linecap="round" stroke-width="13"/>
+  <rect x="152" y="361" width="208" height="64" rx="32" fill="#d9a19b"/>
+  <text x="256" y="405" text-anchor="middle" fill="#0c4f45" font-family="Arial,sans-serif" font-size="40" font-weight="800" letter-spacing="5">S&amp;S</text>
+</svg>

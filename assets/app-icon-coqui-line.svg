@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Coquí Stop</title>
+  <desc id="desc">A smiling coquí frog above a transit line with station stops</desc>
+  <rect width="512" height="512" rx="112" fill="#bc776f"/>
+  <circle cx="256" cy="226" r="194" fill="#f0e3c9" stroke="#0c4f45" stroke-width="8"/>
+  <g fill="none" stroke="#0c4f45" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M205 220c-34 6-50 27-68 47l-31-15M307 220c34 6 50 27 68 47l31-15" stroke-width="16"/>
+    <path d="M210 295c-30 16-47 38-60 62l-43-3M302 295c30 16 47 38 60 62l43-3" stroke-width="17"/>
+    <ellipse cx="256" cy="263" rx="64" ry="83" fill="#64a26f" stroke-width="13"/>
+    <ellipse cx="256" cy="188" rx="88" ry="60" fill="#f0e3c9" stroke-width="13"/>
+    <circle cx="196" cy="143" r="31" fill="#d9a19b" stroke-width="11"/>
+    <circle cx="316" cy="143" r="31" fill="#d9a19b" stroke-width="11"/>
+    <circle cx="196" cy="143" r="9" fill="#0c4f45" stroke="none"/>
+    <circle cx="316" cy="143" r="9" fill="#0c4f45" stroke="none"/>
+    <path d="M224 202c18 14 46 14 64 0" stroke="#d9a19b" stroke-width="12"/>
+  </g>
+  <path d="M76 402h360" fill="none" stroke="#0c4f45" stroke-linecap="round" stroke-width="14"/>
+  <circle cx="130" cy="402" r="20" fill="#f0e3c9" stroke="#0c4f45" stroke-width="12"/>
+  <circle cx="256" cy="402" r="20" fill="#d9a19b" stroke="#0c4f45" stroke-width="12"/>
+  <circle cx="382" cy="402" r="20" fill="#f0e3c9" stroke="#0c4f45" stroke-width="12"/>
+  <text x="256" y="474" text-anchor="middle" fill="#f0e3c9" font-family="Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="6">CO-QUÍ</text>
+</svg>

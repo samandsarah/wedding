@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Palm Line T</title>
+  <desc id="desc">A transit-style T blended with a pink palm and green waves</desc>
+  <rect width="512" height="512" rx="112" fill="#f0e3c9"/>
+  <circle cx="256" cy="236" r="202" fill="#0c4f45" stroke="#d9a19b" stroke-width="8"/>
+  <rect x="136" y="126" width="240" height="65" rx="26" fill="#f0e3c9"/>
+  <rect x="224" y="172" width="64" height="185" rx="28" fill="#f0e3c9"/>
+  <path d="M262 350c8-78 17-137 43-193" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="18"/>
+  <path d="M305 157c-38-28-68-20-82 4 35 2 58 17 76 40M307 157c28-35 60-35 82-13-29 10-52 31-76 59M305 165c42 1 67 20 74 48-31-16-54-18-79-9" fill="none" stroke="#d9a19b" stroke-linecap="round" stroke-width="14"/>
+  <path d="M121 347c41-23 77-23 118 0s78 23 119 0 75-23 113 0M116 382c44-24 82-24 126 0s82 24 126 0 78-24 115 0" fill="none" stroke="#64a26f" stroke-linecap="round" stroke-width="15"/>
+  <text x="256" y="454" text-anchor="middle" fill="#0c4f45" font-family="Arial,sans-serif" font-size="32" font-weight="800" letter-spacing="7">S&amp;S</text>
+</svg>
