@@ -249,6 +249,7 @@ h2 { margin: 0; font: 500 clamp(2.7rem, 5vw, 4.8rem)/.93 var(--serif); letter-sp
 .line-map { overflow: hidden; border-block: 1px solid var(--line); background: var(--cream); }
 .line-map-inner { display: grid; grid-template-columns: 10rem 1fr; align-items: center; gap: 2.5rem; max-width: 74rem; margin: 0 auto; padding: 2.3rem 2rem; }
 .line-name { display: flex; align-items: center; gap: .7rem; font: 800 .72rem var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+.line-scroll { min-width: 0; }
 .line-name b { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%; color: #fff; background: var(--pink-deep); font-size: .75rem; }
 .line-map ol { position: relative; display: grid; grid-template-columns: repeat(5, 1fr); margin: 0; padding: 0; list-style: none; }
 .line-map ol::before { content: ""; position: absolute; z-index: 0; top: 1rem; left: 8%; right: 8%; height: 5px; border-radius: 4px; background: var(--pink-deep); }
@@ -362,6 +363,7 @@ h2 { margin: 0; font: 500 clamp(2.7rem, 5vw, 4.8rem)/.93 var(--serif); letter-sp
 .cat-note h3 { margin: .1rem 0 .35rem; font: 650 1.35rem var(--serif); }
 .cat-note p { margin: 0; color: var(--ink-soft); }
 .cat-note .cat-kicker { color: var(--pink-deep); font: 850 .62rem var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+.cat-note .cat-bingo { margin-top: .7rem; color: var(--pink-deep); font-size: .88rem; }
 
 .info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.3rem; }
 .info-grid article { border-top: 4px solid var(--pink); padding: 1.3rem 1rem 0 0; }
@@ -467,7 +469,8 @@ footer p { margin: 0; }
   .section-heading > p { margin-top: 1rem; }
   .line-map-inner { display: block; padding: 1.8rem 1.25rem; }
   .line-name { margin-bottom: 1.5rem; }
-  .line-map ol { overflow-x: auto; min-width: 34rem; padding-bottom: .5rem; }
+  .line-scroll { overflow-x: auto; overscroll-behavior-inline: contain; padding-bottom: .5rem; -webkit-overflow-scrolling: touch; scrollbar-width: thin; touch-action: pan-x pan-y; }
+  .line-map ol { min-width: 34rem; }
   .day-tabs { gap: .4rem; }
   .day-tabs button { grid-template-columns: 1fr; justify-items: center; gap: .05rem; padding: .7rem; text-align: center; }
   .day-tabs small { display: none; }
