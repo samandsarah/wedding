@@ -1,6 +1,6 @@
-# Sarah & Sam — Puerto Rico celebration
+# Sarah & Sam - Puerto Rico celebration
 
-Static guest site for December 4–6, 2026 in Ocean Park, San Juan.
+Static guest site for December 4-6, 2026 in Ocean Park, San Juan.
 
 ## Local preview
 
