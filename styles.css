@@ -208,8 +208,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
   border: 1px dashed rgba(240,227,201,.45);
   border-radius: 50%;
 }
-.seal-ring span, .seal-ring small { position: relative; z-index: 1; font: 750 .68rem var(--mono); letter-spacing: .16em; text-transform: uppercase; }
-.seal-ring img { position: relative; z-index: 1; filter: drop-shadow(0 9px 20px rgba(0,0,0,.2)); }
+.seal-ring span { position: absolute; z-index: 1; top: 2.3rem; font: 750 .68rem var(--mono); letter-spacing: .16em; text-transform: uppercase; }
+.seal-ring img { position: relative; z-index: 1; width: 9.75rem; height: 9.75rem; filter: drop-shadow(0 9px 20px rgba(0,0,0,.2)); }
 .photo-note {
   position: absolute;
   z-index: 4;
@@ -461,8 +461,8 @@ footer p { margin: 0; }
   .hero-seal { position: absolute; right: 1rem; bottom: 1.5rem; margin: 0; opacity: .9; }
   .seal-ring { width: 10rem; height: 10rem; }
   .seal-ring::before { width: 8.4rem; height: 8.4rem; }
-  .seal-ring img { width: 66px; height: 66px; }
-  .seal-ring span, .seal-ring small { display: none; }
+  .seal-ring img { width: 78px; height: 78px; }
+  .seal-ring span { display: none; }
   .photo-note { display: none; }
   .section, .section-narrow { padding: 5rem 1.25rem; }
   .section-heading { display: block; }
